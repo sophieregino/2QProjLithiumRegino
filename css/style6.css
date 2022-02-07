@@ -1,0 +1,162 @@
+body {
+    margin:0;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    background: #333333;
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+}
+
+nav a{
+    font-family: Arial;
+    display: block; 
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #666;
+}
+
+nav a.now {
+    background: dimgray;
+}
+
+nav a.now:hover{
+    color: black;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    background-color: #262626;
+    margin-bottom: 60px;
+}
+
+header h1 {
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 50px;
+    color:#FFDE59;
+}
+
+section.column1 {
+    float: left;
+    width: 50%;
+}
+
+section.column2 {
+    float: right;
+    width: 50%;
+}
+section.column3 {
+    float: none;
+    width: 100%
+}
+
+section.term {
+    margin-bottom: 65px;
+}
+
+section.term .title {
+    display: block;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+figure img {
+    margin: auto;
+    width: 350px;
+    height: 350px;
+}
+
+.description{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: Courier;
+    font-size: 18px;
+}
+
+.description div {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-left: 320px;
+    margin-right: 320px;
+    font-family: Courier;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 90px;
+    font-family: Arial;
+    padding: 20px;
+    text-align: center;
+    background:darkgrey;
+}
+
+footer h4{
+    margin-bottom: 50px;
+}
+
+.socmeds ul {
+    padding: 0; 
+    margin: 0; 
+}
+
+.socmeds ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.socmeds ul li a { 
+    background-image: url(../images/socmeds.png);
+    background-size: 190px 50px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 45px;
+    display: inline-block;
+}
+
+.socmeds ul li.gmail a {
+    background-position: -50px 0px;
+}
+
+.socmeds ul li.twt a {
+    background-position: -99px 0px;
+}
+
+.socmeds ul li.ig a {
+    background-position: -149px 0px;
+}
+
+footer .references a {
+    display: inline-block;
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.references a:hover {
+    color: white;
+}

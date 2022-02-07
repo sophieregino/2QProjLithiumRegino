@@ -1,0 +1,240 @@
+body {
+    margin:0;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    background: #333333;
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+    
+}
+
+nav a{
+    font-family: Arial;
+    display: block; 
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #666;
+}
+
+nav a.now {
+    background: dimgray;
+}
+
+nav a.now:hover{
+    color: black
+}
+
+header {
+    display: flex;
+    margin: 0;
+    height: 250px;
+    background-color: #262626;
+}
+
+header div {
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header h1 {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold; 
+    font-size: 60px;
+    color:#FFDE59;
+    margin-bottom: 30px;
+}
+
+header p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+}
+
+.container { 
+    display: flex;
+    margin: 60px 120px 60px 120px;
+}
+
+.col1 {
+    width: 50%;
+    padding: 25px; 
+}
+
+.col2 {
+    width: 50%;
+    padding: 25px; 
+}
+
+.col1 p {
+    position: relative; 
+    right: -50px;
+    color: white;
+    text-align: center;
+    font-family: Courier;
+    font-size: 16px;
+}
+
+.col1 a { 
+    position: relative; 
+    left: 240px;
+    text-decoration: none;
+    color: white; 
+    padding: 10px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid 1px;
+}
+
+.container a:hover {
+    text-decoration: underline;
+    color:#FFDE59;
+}
+
+.col2 p {
+    position: relative; 
+    left: -50px;
+    color: white;
+    text-align: center;
+    font-family: Courier;
+    font-size: 18px;
+}
+
+.col2 a { 
+    position: relative; 
+    left: 100px;
+    text-decoration: none;
+    color: white; 
+    padding: 10px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid 1px;
+}
+
+img.aapi {
+    position: relative; 
+    right: -50px;
+    width: 352px;
+    height: 310px;
+    transition: width 2s, height 2s;
+}
+
+img.aapi:hover {
+    width: 405px;
+    height: 358px;
+}
+
+img.aapi2 {
+    position: relative; 
+    left: -50px;
+    width: 555px;
+    height: 463px;
+    margin-bottom: 80px;
+    transition: width 2s, height 2s;
+}
+
+img.aapi2:hover {
+    width: 609px;
+    height: 508px;
+}
+
+img.blm {
+    position: relative; 
+    left: -50px;
+    width: 352px;
+    height: 310px;
+    transition: width 2s, height 2s;
+}
+
+img.blm:hover {
+    width: 405px;
+    height: 358px;
+}
+
+img.blm2 {
+    position: relative; 
+    right: -50px;
+    width: 555px;
+    height: 463px;
+    margin-bottom: 80px;
+    transition: width 2s, height 2s;
+}
+
+img.blm2:hover {
+    width: 609px;
+    height: 508px;
+}
+
+footer {
+    font-family: Arial;
+    padding: 20px;
+    text-align: center;
+    background:darkgrey;
+    margin-top: 90px;
+}
+
+footer img {
+    width: 200px;
+    height: 50px;
+}
+
+footer h4{
+    margin-bottom: 50px;
+}
+
+.socmeds ul {
+    padding: 0; 
+    margin: 0; 
+}
+
+.socmeds ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.socmeds ul li a { 
+    background-image: url(../images/socmeds.png);
+    background-size: 190px 50px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 45px;
+    display: inline-block;
+}
+
+.socmeds ul li.gmail a {
+    background-position: -50px 0px;
+}
+
+.socmeds ul li.twt a {
+    background-position: -99px 0px;
+}
+
+.socmeds ul li.ig a {
+    background-position: -149px 0px;
+}
+
+footer .references a {
+    display: inline-block;
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.references a:hover {
+    color: white;
+}

@@ -1,0 +1,230 @@
+body {
+    margin:0;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    background: #333333;
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+}
+
+nav a{
+    font-family: Arial;
+    display: block; 
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #666;
+}
+
+nav a.now {
+    background: dimgray;
+}
+
+nav a.now:hover{
+    color: black;
+}
+
+header {
+    display: block;
+    float: left; 
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+    background-color: #262626;
+    width: 60%;
+    padding: 0;
+}
+
+header h1 {
+    padding: 0;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 50px;
+    color:#FFDE59;
+}
+
+section.videos {
+    display: block;
+    float: right; 
+    margin-top: 50px;
+    width: 35%; 
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 1460px; 
+    background-color: #262626;
+    text-align: center;
+}
+
+iframe {
+    margin-top: 80px;
+}
+
+section.videos h1 {
+    font-family: Arial;
+    font-weight: bold; 
+    color: white;
+}
+
+section.videos p {
+    font-family: Arial;
+    color: white;
+    margin-bottom: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+section.videos h4 {
+    font-family: Arial;
+    font-weight: bold; 
+    color: white;
+}
+
+section.videos a {
+    text-decoration: none;
+    font-family: Arial;
+    color: #ffffd4;
+    display: block;
+    margin-bottom: 20px;
+}
+
+section.videos a:hover {
+    text-decoration: underline;
+}
+
+section.columns {
+    display: flex;
+    width: 60%; 
+}
+
+section .column1 {
+    flex: 50%;
+    padding: 25px; 
+}
+
+section .column2 {
+    flex: 50%; 
+    padding: 25px;
+}
+
+section .col {
+    width: 50%;
+    float: left;
+    padding: 25px;
+}
+
+section.prejudice {
+    width: 60%;
+    text-align: center;
+}
+
+section.term {
+    margin-bottom: 65px;
+}
+
+article.title {
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+figure.media img{
+    display: flex; 
+    flex: 50%;
+    width: 60%; 
+    width: 200px;
+    height: 200px;
+}
+
+img{
+    flex: 50%;
+    width: 60%; 
+    width: 200px;
+    height: 200px;
+}
+
+article.description{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    font-family: Courier;
+    font-size: 15px;
+}
+
+article.description div {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-family: Courier;
+    font-size: 15px;
+}
+
+footer {
+    font-family: Arial;
+    padding: 20px;
+    text-align: center;
+    background:darkgrey;
+    display: block;
+}
+
+footer h4{
+    margin-bottom: 50px;
+}
+
+.socmeds ul {
+    padding: 0; 
+    margin: 0; 
+}
+
+.socmeds ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.socmeds ul li a { 
+    background-image: url(../images/socmeds.png);
+    background-size: 190px 50px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 45px;
+    display: inline-block;
+}
+
+.socmeds ul li.gmail a {
+    background-position: -50px 0px;
+}
+
+.socmeds ul li.twt a {
+    background-position: -99px 0px;
+}
+
+.socmeds ul li.ig a {
+    background-position: -149px 0px;
+}
+
+footer .references a {
+    display: inline-block;
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.references a:hover {
+    color: white;
+}
